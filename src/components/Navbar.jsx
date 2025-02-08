@@ -29,30 +29,47 @@ function Navbar() {
 
           {/* Login Button & Mobile Menu Toggle */}
           <div className="flex md:order-2 space-x-3">
-           
-              <BookingForm/>
-      
+            <BookingForm />
 
-            {/* Hamburger Menu Button */}
+            {/* Hamburger / Close Button */}
             <button
               type="button"
               className="md:hidden p-2 w-10 h-10 text-[#ffbd39] rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-gray-200"
               onClick={() => setMenuOpen(!menuOpen)}
             >
-              <svg
-                className="w-5 h-5"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 17 14"
-              >
-                <path
+              {menuOpen ? (
+                // Close Icon
+                <svg
+                  className="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
                   stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
                   strokeWidth="2"
-                  d="M1 1h15M1 7h15M1 13h15"
-                />
-              </svg>
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              ) : (
+                // Hamburger Icon
+                <svg
+                  className="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 17 14"
+                >
+                  <path
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M1 1h15M1 7h15M1 13h15"
+                  />
+                </svg>
+              )}
             </button>
           </div>
 

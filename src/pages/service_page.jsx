@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Services from "../components/Services";
 import bg from '../image/bg.png';
+import { ReactTyped } from "react-typed";
 
 class ServicePage extends Component {
   render() {
@@ -16,10 +17,17 @@ class ServicePage extends Component {
 
           {/* Content */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-            <h1 className="text-4xl md:text-5xl font-bold text-white">
-              Hello, Welcome to{" "}
-              <span className="text-[#ffbd39]">Project Page</span>
-            </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white">
+            <ReactTyped
+              strings={[
+                "<span class='text-[#ffbd39]'>Welcome to</span> <span class='text-[#ffbd39]'>Service Page</span>",
+              ]}
+              typeSpeed={100}
+              backSpeed={60}
+              loop
+            />
+          </h1>
+
             <p className="text-gray-300 text-sm md:text-lg max-w-lg mt-4">
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia.

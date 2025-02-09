@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // For AOS styles
-import Socheat from '../image/socheat.png';
+import Socheat from "../image/socheat.png";
 import { ReactTyped } from "react-typed";
 
 function Heading() {
@@ -9,7 +9,7 @@ function Heading() {
   useEffect(() => {
     AOS.init({
       duration: 1200, // Animation duration
-      easing: 'ease-out-back', // Easing function for smooth animation
+      easing: "ease-out-back", // Easing function for smooth animation
       once: true, // Animation happens only once
     });
   }, []);
@@ -17,32 +17,28 @@ function Heading() {
   return (
     <section className="max-w-screen-xl mx-auto text-center p-4 mt-10 mb-5">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-5">
-        <div
-          data-aos="zoom-in"
-          data-aos-duration="3000"
-          className=""
-        >
+        <div data-aos="zoom-in" data-aos-duration="3000">
           <h2 className="text-[20px] text-[#fff] font-bold text-start mt-2 mb-2">
-          <ReactTyped
-                strings={[
-                  "HI, I'am <span class='text-[#ffbd39]'>Kin Socheat !</span>",
-                ]}
-                typeSpeed={100}
-                backSpeed={60}
-                loop
-              />
+            <ReactTyped
+              strings={[
+                "HI, I'am <span class='text-[#ffbd39]'>Kin Socheat !</span>",
+              ]}
+              typeSpeed={100}
+              backSpeed={60}
+              loop
+            />
           </h2>
           <h2 className="text-[50px] text-[#fff] font-bold text-start mt-2 mb-2 leading-relaxed">
-          <ReactTyped
-                strings={[
-                  "I'am a <span class='text-[#ffbd39]'>Front-End Developer !<span class='text-[#fff]'> And Freelancers !</span></span>",
-                ]}
-                typeSpeed={100}
-                backSpeed={60}
-                loop
-              />
+            <ReactTyped
+              strings={[
+                "I'am a <span class='text-[#ffbd39]'>Front-End Developer !<span class='text-[#fff]'> And Freelancers !</span></span>",
+              ]}
+              typeSpeed={100}
+              backSpeed={60}
+              loop
+            />
           </h2>
-          
+
           <p className="text-sm text-[#8e8d8d] text-start mt-2 mb-2">
             I am a Junior Front-End Web Developer Specializing in creating dynamic
             and user-friendly websites. My primary focus is on delivering engaging
@@ -64,19 +60,16 @@ function Heading() {
           </div>
         </div>
 
-        {/* Image with Animation */}
-        <div
-          data-aos="zoom-in"
-          data-aos-duration="3000"
-          
-          className=""
-        >
+        {/* Image with Snow-Like Background */}
+        <div data-aos="zoom-in" data-aos-duration="3000">
           <div className="flex items-center justify-center">
-            <img
-              src={Socheat}
-              alt="Socheat"
-              className="w-[400px] transition-all duration-300 hover:scale-105"
-            />
+            <div className="w-[400px] h-[400px] bg-[#f9f9f9]  rounded-r-[50px]  rounded-l-[300px] flex items-center justify-center drop-shadow-lg">
+              <img
+                src={Socheat}
+                alt="Socheat"
+                className="w-[300px] transition-all duration-300 hover:scale-105"
+              />
+            </div>
           </div>
         </div>
       </div>

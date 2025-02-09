@@ -58,7 +58,7 @@ class Footer extends Component {
               <ul className="space-y-2 mt-7">
                 <li>
                   <a
-                    href=""
+                    href="/home"
                     className="fle hover:text-[#ffbd39] items-center mb-4"
                   >
                     Home
@@ -66,7 +66,7 @@ class Footer extends Component {
                 </li>
                 <li>
                   <a
-                    href="/about"
+                    href="/resume_page"
                     className="fle hover:text-[#ffbd39] items-center mb-4"
                   >
                     Resume
@@ -74,7 +74,7 @@ class Footer extends Component {
                 </li>
                 <li>
                   <a
-                    href="/room"
+                    href="/about_page"
                     className="fle hover:text-[#ffbd39] items-center mb-4"
                   >
                    About me
@@ -82,7 +82,7 @@ class Footer extends Component {
                 </li>
                 <li>
                   <a
-                    href="/gallery"
+                    href="/project_page"
                     className="fle hover:text-[#ffbd39] items-center mb-4"
                   >
                     Project
@@ -90,7 +90,7 @@ class Footer extends Component {
                 </li>
                 <li>
                   <a
-                    href="/blog"
+                    href="/blog_page"
                     className="fle hover:text-[#ffbd39] items-center mb-4"
                   >
                     Blog
@@ -98,7 +98,7 @@ class Footer extends Component {
                 </li>
                 <li>
                   <a
-                    href="/contact"
+                    href="/contact_page"
                     className="fle hover:text-[#ffbd39] items-center mb-4"
                   >
                     Contact
@@ -125,32 +125,32 @@ class Footer extends Component {
                 </button>
               </div>
               <div className="mt-5 flex  space-x-5 items-center">
-                <div className="">
+                <a href="https://web.facebook.com/cheat.cheat.7169">
                     <FontAwesomeIcon
                         icon={faFacebook}
                         className="w-8 h-8 text-[#fff] hover:text-[#ffbd39]"
                     />
-                </div>
+                </a>
 
-                <div className="">
+                <a href="https://www.linkedin.com/in/kin-socheat-30100b327/">
                     <FontAwesomeIcon
                         icon={faTwitter}
                         className="w-8 h-8 text-[#fff] hover:text-[#ffbd39]"
                     />
-                </div>
+                </a>
 
-                <div className="">
+                <a href="https://t.me/socheat_kin">
                     <FontAwesomeIcon
                         icon={faLinkedin}
                         className="w-8 h-8 text-[#fff] hover:text-[#ffbd39]"
                     />
-                </div>
-                <div className="">
+                </a>
+                <a href="">
                     <FontAwesomeIcon
                         icon={faYoutube}
                         className="w-8 h-8 text-[#fff] hover:text-[#ffbd39]"
                     />
-                </div>
+                </a>
               </div>
             </div>
           </div>

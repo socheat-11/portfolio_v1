@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import ProjectGallery from "../components/ProjectGallery";
 import bg from '../image/bg.png';
 import { ReactTyped } from "react-typed";
+import BlogSection from "../components/BlogSection";
 
-class ServicePage extends Component {
+class BlogPage extends Component {
   render() {
     return (
       <div className="">
@@ -20,7 +20,7 @@ class ServicePage extends Component {
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             <ReactTyped
               strings={[
-                "<span class='text-white'>Welcome to</span> <span class='text-[#ffbd39]'>Service Page</span>",
+                "<span class='text-white'>Welcome to</span> <span class='text-[#ffbd39]'>Blogs Page</span>",
               ]}
               typeSpeed={100}
               backSpeed={60}
@@ -43,13 +43,13 @@ class ServicePage extends Component {
               </a>
 
               <a
-                href="/projeact"
+                href="/blog_page"
                 className="inline-block py-2 px-3 text-[#ffbd39] text-base border-y-4 border-transparent 
               hover:text-[#ffbd39] focus:text-[#ffbd39] active:text-[#ffbd39] 
               hover:border-[#ffbd39] 
               transition duration-700 ease-in-out"
               >
-                Projeact
+                Blogs
               </a>
             </div>
           </div>
@@ -57,7 +57,7 @@ class ServicePage extends Component {
         <div className="py-12 bg-[#1a1824] text-white">
           <section className="max-w-screen-xl mx-auto text-center p-4 mt-5">
             <div className="">
-              <ProjectGallery />
+              <BlogSection />
             </div>
           </section>
         </div>
@@ -66,8 +66,8 @@ class ServicePage extends Component {
   }
 }
 
-ServicePage.propTypes = {
+BlogPage.propTypes = {
   // Define your prop types here if needed
 };
 
-export default ServicePage;
+export default BlogPage;

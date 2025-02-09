@@ -9,11 +9,11 @@ function Navbar() {
   const navLinks = [
     { name: "Home", path: "/home" },
     { name: "Service", path: "/service_page" },
-    { name: "Resume", path: "/resume" },
-    { name: "About Me", path: "/about" },
-    { name: "Project", path: "/project" },
-    { name: "Blog", path: "/blog" },
-    { name: "Contact", path: "/contact" },
+    { name: "Resume", path: "/resume_page" },
+    { name: "About Me", path: "/about_page" },
+    { name: "Project", path: "/project_page" },
+    { name: "Blog", path: "/blog_page" },
+    { name: "Contact", path: "/contact_page" },
   ];
 
   return (

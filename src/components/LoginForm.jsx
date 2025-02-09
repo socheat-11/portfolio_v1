@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function BookingForm() {
+function LoginForm() {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
@@ -128,7 +128,7 @@ function BookingForm() {
                   type="submit"
                   className="inline-block text-[16px] py-2 px-5 rounded-full transition-all duration-[800ms] ease-in-out text-[#fff] bg-[#ffbd39] hover:bg-transparent hover:text-[#fff] border-2 border-[#ffbd39]"
                 >
-                  Confirm Booking
+                  Confirm Login
                 </button>
               </div>
             </form>
@@ -139,4 +139,4 @@ function BookingForm() {
   );
 }
 
-export default BookingForm;
+export default LoginForm;

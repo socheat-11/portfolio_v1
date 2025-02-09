@@ -32,7 +32,7 @@ class Footer extends Component {
                   <a href="/about" className="flex mb-4 items-center space-x-2">
                     <PhoneIcon className="w-6 h-6 text-[#ffbd39]" />
                     <span className="hover:text-[#ffbd39]">
-                      +855 123 456 789
+                      +855 87 708 384
                     </span>
                   </a>
                 </li>
@@ -43,7 +43,7 @@ class Footer extends Component {
                       className="w-6 h-6 text-[#ffbd39]"
                     />
                     <span className="hover:text-[#ffbd39]">
-                      example@gmail.com
+                      kinsocheat880@gmail.com
                     </span>
                   </a>
                 </li>
@@ -116,7 +116,7 @@ class Footer extends Component {
                 <input
                   type="text"
                   placeholder="Enter text here"
-                  className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  className="w-full px-4 py-2 border border-gray-300 text-black focus:outline-none focus:ring-2 focus:ring-[#ffbd39]"
                 />
               </div>
               <div className="mt-5">

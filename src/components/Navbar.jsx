@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import BookingForm from "./BookingForm";
+import LoginForm from "./LoginForm";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,7 +29,7 @@ function Navbar() {
 
           {/* Login Button & Mobile Menu Toggle */}
           <div className="flex md:order-2 space-x-3">
-            <BookingForm />
+            <LoginForm />
 
             {/* Hamburger / Close Button */}
             <button

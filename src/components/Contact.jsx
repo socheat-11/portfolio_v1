@@ -26,7 +26,6 @@ const Contact = () => {
     let errors = {};
     if (!formData.name) errors.name = "Name is required";
     if (!formData.email) errors.email = "Email is required";
-    if (!formData.message) errors.message = "Message is required";
     setFormErrors(errors);
     return Object.keys(errors).length === 0;
   };

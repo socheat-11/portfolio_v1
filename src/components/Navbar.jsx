@@ -84,9 +84,12 @@ function Navbar() {
                 <li key={index}>
                   <Link
                     to={link.path}
-                    className="inline-block py-2 px-3 text-[#ffbd39] text-base border-b-4 border-transparent hover:text-[#ffbd39] hover:border-[#ffbd39] transition duration-700"
+                    className="inline-block text-[#ffbd39] px-3 py-2"
                   >
-                    {link.name}
+                     <span class="after:block after:w-0 after:h-[3px] after:mt-2 after:bg-[#ffbd39]  after:transition-all after:duration-500 after:ease-in-out hover:after:w-full">
+                     {link.name}
+                            </span>
+                   
                   </Link>
                 </li>
               ))}

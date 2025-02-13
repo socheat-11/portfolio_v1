@@ -8,6 +8,7 @@ import About_page from "./pages/about_page";
 import Project_page from "./pages/project_page";
 import Blog_page from "./pages/blog_page";
 import Contact_page from "./pages/contact_page";
+import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
   return (
@@ -22,10 +23,8 @@ function App() {
         <Route path="/project_page" element={<Project_page />} />
         <Route path="/blog_page" element={<Blog_page />} />
         <Route path="/contact_page" element={<Contact_page />} />
-        
-        
-        
       </Routes>
+      <BackToTopButton />
      <Footer />
     </Router>
     

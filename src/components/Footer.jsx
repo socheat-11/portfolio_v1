@@ -116,11 +116,11 @@ class Footer extends Component {
                 <input
                   type="text"
                   placeholder="Enter text here"
-                  className="w-full px-4 py-2 border border-gray-300 text-black focus:outline-none focus:ring-2 focus:ring-[#ffbd39]"
+                  className="w-full px-4 py-2 border border-gray-300 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ffbd39]"
                 />
               </div>
               <div className="mt-5">
-                <button className="iinline-block text-[16px] font-medium uppercase py-2 px-5  transition-all duration-[800ms] ease-in-out text-[#ffbd39] hover:text-[#fff] bg-[#fff] hover:bg-[#ffbd39] hover:text-[#[#fff]]">
+                <button className="iinline-block text-[16px] font-medium uppercase py-2 px-5  rounded-lg transition-all duration-[800ms] ease-in-out text-[#ffbd39] hover:text-[#fff] bg-[#fff] hover:bg-[#ffbd39] hover:text-[#[#fff]]">
                   subscribe
                 </button>
               </div>
@@ -158,7 +158,7 @@ class Footer extends Component {
           {/* Copyright */}
         </div>
         <div className="bg-white py-4 text-center text-sm text-gray-500">
-          &copy; {new Date().getFullYear()} YourCompany. All rights reserved.
+          &copy; {new Date().getFullYear()} MyFolio. All rights reserved.
         </div>
       </footer>
     );

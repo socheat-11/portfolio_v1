@@ -63,7 +63,7 @@ function Heading() {
         {/* Image with Snow-Like Background */}
         <div data-aos="zoom-in" data-aos-duration="3000">
           <div className="flex items-center justify-center">
-            <div className="w-[400px] h-[400px] bg-[#f9f9f9]  rounded-br-[40px] border-4 border-[#ffbd39] rounded-tr-[5px] rounded-tl-[5px] rounded-bl-[300px] flex items-center justify-center drop-shadow-lg">
+            <div className="w-[400px] h-[400px] bg-[#f9f9f9]  rounded-br-[124px] border-4 border-[#ffbd39] rounded-tr-[221px] rounded-tl-[129px] rounded-bl-[222px] flex items-center justify-center drop-shadow-lg">
               <img
                 src={Socheat}
                 alt="Socheat"

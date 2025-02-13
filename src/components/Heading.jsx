@@ -44,7 +44,7 @@ function Heading() {
             and user-friendly websites. My primary focus is on delivering engaging
             experiences that users enjoy. Currently, I am working with React.
           </p>
-          <div className="flex justify-start items-start space-x-3 mt-4">
+          <div className="flex justify-start items-start space-x-3 mt-5">
             <a
               href="https://t.me/socheat_kin"
               className="px-7 py-2 font-bold uppercase text-[13px] border-2 text-[#fff] bg-[#ffbd39] rounded-full hover:bg-[#f5b73c] border-[#ffbd39] transition duration-500 ease-in-out"
